@@ -1,0 +1,33 @@
+/* * {
+    outline: 1px red solid;
+} */
+
+body {
+    margin: 20px;
+}
+
+body > * > * {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header > nav > * {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+
+    font-size: 20px;
+}
+
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.subheader {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
